@@ -1,0 +1,23 @@
+{
+	"weights": [{
+		"Year": 2015,
+		"Month": "April",
+		"Date": [{
+				"date": 1,
+				"weight": 149.52
+			},
+			{
+				"date": 2,
+				"weight": 149.38
+			},
+			{
+				"date": 3,
+				"weight": 149.60
+			},
+			{
+				"date": 4,
+				"weight": 149.10
+			}
+		]
+	}]
+}
