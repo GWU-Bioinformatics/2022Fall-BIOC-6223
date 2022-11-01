@@ -1,0 +1,14 @@
+{
+	"pumpkins": [{
+			"varietal": "Appalachian",
+			"use": "Carving"
+		},
+		{
+			"varietal": "Butternut",
+			"use": "Cooking"
+		}, {
+			"varietal": "Casper",
+			"use": "Decor"
+		}
+	]
+}
