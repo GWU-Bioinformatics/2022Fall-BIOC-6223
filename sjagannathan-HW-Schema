@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2022-11/schema",
-  "$id": "https://example.com/product.schema.json",
+  "$id": "https://raw.githubusercontent.com/GWU-Bioinformatics/2022Fall-BIOC-6223/main/sjagannathan-HW-Schema",
   "title": "Genes",
   "description": "This document is the schema that corresponds to the json file with gene information",
   "required": [ "Name", "Length in bp", "Accession #" ],
