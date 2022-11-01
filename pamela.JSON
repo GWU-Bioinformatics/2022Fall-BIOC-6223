@@ -1,0 +1,64 @@
+{
+  "Days":[
+    {
+      "Month": "April",
+      "Day": 1,
+      "Year": 2015,
+      "Value": 149.52
+    },
+    {
+      "Month": "April",
+      "Day": 2,
+      "Year": 2015,
+      "Value": 149.38
+    },
+    {
+      "Month": "April",
+      "Day": 3,
+      "Year": 2015,
+      "Value": 149.60
+    },
+    {
+      "Month": "April",
+      "Day": 4,
+      "Year": 2015,
+      "Value": 149.10
+    },
+    {
+      "Month": "April",
+      "Day": 5,
+      "Year": 2015,
+      "Value": 151.77
+    },
+    {
+      "Month": "April",
+      "Day": 6,
+      "Year": 2015,
+      "Value": 150.84
+    },
+    {
+      "Month": "April",
+      "Day": 7,
+      "Year": 2015,
+      "Value": 149.93
+    },
+    {
+      "Month": "April",
+      "Day": 8,
+      "Year": 2015,
+      "Value": 149.63
+    },
+    {
+      "Month": "April",
+      "Day": 9,
+      "Year": 2015,
+      "Value": 149.95
+    },
+    {
+      "Month": "April",
+      "Day": 10,
+      "Year": 2015,
+      "Value": 147.79
+    }
+  ]
+}
