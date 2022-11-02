@@ -3,7 +3,13 @@
     "name" : "IGF-1",
     "length in bp" : 377,
     "accession number" : "MK849401"
-    },{
-    "name" : " ",
-    "length in bp" : ,
-    "accession number" : " "
+   },{
+    "name" : "PJA1",
+    "length in bp" : 2700,
+    "accession number" : "AF262024"
+   },{
+    "name" : "FKBP1A",
+    "length in bp" : 327,
+    "accession number" : "CR542168"
+   }]
+}
