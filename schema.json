@@ -1,0 +1,47 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "https://github.com/GWU-Bioinformatics/2022Fall-BIOC-6223/tree/julia/schema.json",
+    "type": "object",
+    "title": "The Root Schema",
+    "required": [
+        "genes"
+    ],
+    "properties": {
+        "genes": {
+            "type": "array",
+            "description": "Container for all genes data",
+            "items": {
+                "type": "object",
+                "required": [
+                    "name",
+                    "bp_length",
+                    "accession_number"
+                ],
+                "properties": {
+                    "name": {
+                        "type": "string",
+                        "description":"The name of gene"
+                        "examples": [
+                            "Pellia endiviifolia (species B) Ts gene",
+                            "Gulo gulo luscus ACE2 gene",
+                            "UIMC1"
+                        ]
+                    },
+                    "bp_length": {
+                        "type": "integer",
+                        "description": "The bp length of gene",
+                        "examples": [
+                            3875,
+                            36590,
+                            1791
+                        ]
+                    },
+                    "accession_number": {
+                        "type": "string",
+                        "description": "The accession number of gene",
+                        "examples": [
+                            "HQ634386",
+                            "OM350479",
+                            "KJ902619"
+                        ]
+                    }
