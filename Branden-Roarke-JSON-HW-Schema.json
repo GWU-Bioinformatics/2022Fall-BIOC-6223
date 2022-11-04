@@ -1,6 +1,6 @@
 {
     "$schema":"https://json-schema.org/draft/2020-12/schema",
-    "$id":"",
+    "$id":"https://raw.githubusercontent.com/GWU-Bioinformatics/2022Fall-BIOC-6223/Branden-Roarke/Branden-Roarke-JSON-HW-Schema.json",
     "title": "Gene Information",
     "description":"Scehma for BIOC6223 JSON HW",
     "type":"object",
