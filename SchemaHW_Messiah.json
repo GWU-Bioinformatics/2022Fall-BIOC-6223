@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$": "#/definitions/Welcome1",
+    "$id": "https://raw.githubusercontent.com/GWU-Bioinformatics/2022Fall-BIOC-6223/Messiah/SchemaHW_Messiah.json",
     "definitions": {
         "Welcome1": {
             "type": "object",
