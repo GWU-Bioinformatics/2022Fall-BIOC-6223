@@ -1,0 +1,42 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$": "#/definitions/Welcome1",
+    "definitions": {
+        "Welcome1": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "Data Set": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/DataSet"
+                    }
+                }
+            },
+            "required": [
+                "Data Set"
+            ]
+        },
+        "DataSet": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "Gene": {
+                    "type": "string"
+                },
+                "Base Pair Length": {
+                    "type": "integer"
+                },
+                "Accession Number": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "Accession Number",
+                "Base Pair Length",
+                "Gene"
+            ],
+            "title": "DataSet"
+        }
+    }
+}
