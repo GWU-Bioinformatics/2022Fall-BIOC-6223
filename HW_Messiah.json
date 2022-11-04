@@ -1,0 +1,21 @@
+{ 
+    
+"Data Set" : [ 
+    { 
+        "Gene" : "Tcas5.2 scaffold_seqid67",
+        "Base Pair Length" : 8380137,
+        "Accession Number" : "NW_015450195.1"
+    }, 
+    { 
+        "Gene" : "DSCR8",
+        "Base Pair Length" : 586,
+        "Accession Number" : "NR_026840.1"
+    },
+    { 
+        "Gene" : "DLEC1",
+        "Base Pair Length" : 533,
+        "Accession Number" : "AY789464.1" 
+    }
+] 
+
+}
