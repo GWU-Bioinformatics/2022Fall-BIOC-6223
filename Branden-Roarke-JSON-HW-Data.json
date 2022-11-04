@@ -1,0 +1,15 @@
+{
+    "genes":[{
+        "accession":"NG_033239",
+        "name":"MTOR",
+        "length":163021
+    },{
+        "accession":"NG_007114",
+        "name":"INS",
+        "length":8416
+    },{
+        "accession":"NG_011676",
+        "name":"GH1",
+        "length":8636
+    }]
+}
