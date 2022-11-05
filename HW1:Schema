@@ -1,4 +1,19 @@
 "$schema": "http://json-schema.org/draft-07/schema#",
-"$id": "https://github.com/GWU-Bioinformatics/2022Fall-BIOC-6223/blob/Lori-Krammer/HW1:Schema",
-"type": 
-"required": 
+"$id": "https://raw.githubusercontent.com/GWU-Bioinformatics/2022Fall-BIOC-6223/Lori-Krammer/HW1%3ASchema",
+"title": "HW1:JSON",
+"description": "Record of three genes pulled from NCBI",
+"type": "object", 
+"properties": {
+  "name": {
+        "description": "Full name or abbreviation of gene", 
+        "type": "string"
+  },
+  "length": {
+        "description": "Length of gene", 
+        "type": "number"
+  },
+  "accession": {
+        "description": "Unique identifier for a gene",
+        "type": "string"
+  }
+ }
