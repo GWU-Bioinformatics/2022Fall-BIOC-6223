@@ -1,0 +1,21 @@
+
+{
+"nucleotides" : [
+  {
+    "Name" : "Ebola Virus - Mayinga, Zaire, 1976, complete genome", 
+    "Length" : 18959, 
+    "Accession" : "AF086833"
+  },
+  {
+    "Name" : "Yersinia pestis biovar Microtus str. 91001, complete genome",
+    "Length" : 4595065, 
+    "Accession" : "AE017042"
+   },
+   {
+    "Name" : "TCIM",
+    "Length" : 1829, 
+    "Accession" : "NM_020130"
+   }
+ ]
+}
+  
