@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://raw.githubusercontent.com/GWU-Bioinformatics/2022Fall-BIOC-6223/test-branch/test-",
+  "$id": "https://raw.githubusercontent.com/GWU-Bioinformatics/2022Fall-BIOC-6223/c8437dbe113231c974edf67820593a63ae2c1ced/description_gene_info.json",
   "type": "object",
   "title": "Gene Information",
   "description": "Object containing basic information for three human genes.",
