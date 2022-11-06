@@ -1,0 +1,53 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/GWU-Bioinformatics/2022Fall-BIOC-6223/test-branch/test-",
+  "type": "object",
+  "title": "Gene Information",
+  "description": "Object containing basic information for three human genes.",
+  "required": [
+    "Gene Info"
+  ],
+    "properties":{
+      "Gene Info": {
+        "type": "array",
+        "description": "Container for all gene data.",
+        "items": {
+          "additionalProperties": false,
+          "required": [
+          	"Name",
+          	"Length in BP",
+          	"Accession"
+          ],
+          "properties": {
+            "Name": {
+              "type": "string",
+              "description": "Abbreviated gene name.",
+              "examples": [
+                "IL2RG",
+                "ESR1",
+                "JAK3"
+              ]
+            },
+            "Length in BP": {
+              "type": "number",
+              "description": "Gene length in base pairs.",
+              "examples": [
+                5000,
+                38941,
+                234567
+              ]
+            },
+            "Accession": {
+              "type": "string",
+              "description": "GenBank Accession Number associated with the gene. Includes the version.",
+              "examples": [
+                "NG_009088.1",
+                "NG_008493.2",
+                "NG_007273.1"
+              ]
+            }
+          }
+        }
+      }
+    }
+}
