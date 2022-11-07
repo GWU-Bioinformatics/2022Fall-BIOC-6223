@@ -1,0 +1,22 @@
+{
+	"$schema": "https://json-schema.org/draft/2019-09/schema", 
+    "$id": "https://raw.githubusercontent.com/GWU-Bioinformatics/2022Fall-BIOC-6223/liw89/1101hwk_schema_liw89",
+    "type": "object",
+    "title": "Genes",
+    "description": "A gene carries the information that encode a function", 
+    "Properties": {
+    "gene_name": {
+    	"type": "string",
+    	"description": "The name of the gene.",
+    },
+    "length_in_bp": {
+    	"type": "integer",
+    	"description": "The length of the gene in basepair."
+    },
+    "accession_number": {
+    	"type": "string",
+    	"description": "The accession number of the gene."
+    }
+    }
+      
+}
