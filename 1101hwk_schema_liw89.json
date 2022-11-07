@@ -1,9 +1,9 @@
 {
-	"$schema": "https://json-schema.org/draft/2019-09/schema", 
-    "$id": "https://raw.githubusercontent.com/GWU-Bioinformatics/2022Fall-BIOC-6223/liw89/1101hwk_schema_liw89",
+    "$schema": "https://json-schema.org/draft/2019-09/schema", 
+    "$id": "https://raw.githubusercontent.com/GWU-Bioinformatics/2022Fall-BIOC-6223/liw89/1101hwk_schema_liw89.json",
     "type": "object",
     "title": "Genes",
-    "description": "A gene carries the information that encode a function", 
+    "description": "A gene is the basic physical and functional unit of heredity.", 
     "Properties": {
     "gene_name": {
     	"type": "string",
@@ -17,6 +17,5 @@
     	"type": "string",
     	"description": "The accession number of the gene."
     }
-    }
-      
+    } 
 }
