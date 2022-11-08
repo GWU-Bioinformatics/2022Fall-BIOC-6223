@@ -10,7 +10,7 @@
               "type":"array",
               "description": "Contains a list of nucleotides relevant to dysferlinopathy",
               "items":{
-                  "type":"object"
+                  "type":"object",
                   "required":[
                       "name",
                       "bp_length",
