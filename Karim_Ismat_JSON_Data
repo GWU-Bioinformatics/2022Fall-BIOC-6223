@@ -1,0 +1,18 @@
+{
+	"nucleotides": [{
+			"name": "Dysf",
+			"bp_length": 6210,
+			"accession_number": "AF188290"
+		},
+		{
+			"name": "Anxa2",
+			"bp_length": 1368,
+			"accession_number": "NM_007585"
+		},
+		{
+			"name": "Plin1",
+			"bp_length": 1935,
+			"accession_number": "NM_175640"
+		}
+	]
+}
