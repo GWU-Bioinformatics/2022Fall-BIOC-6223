@@ -1,0 +1,18 @@
+{
+	"cancer_genes": [{
+			"name": "TP53",
+			"length": 123,
+			"accession": "MH011443"
+		},
+		{
+			"name": "PTEN",
+			"length": 218336,
+			"accession": "AF067844"
+		},
+		{
+			"name": "BRCA1",
+			"length": 698,
+			"accession": "AY211956"
+		}
+	]
+}
