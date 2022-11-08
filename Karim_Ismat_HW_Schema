@@ -25,9 +25,9 @@
                           "accession_number":{
                              "type":"string",
                              "description":"Unique alpha-numeric identifier"
-                  		 }
-                	 }
-              	}
-         	 }
+                  		   }
+                	   }
+             	   }
+         	   }
       	}     
-   } 
+   }
