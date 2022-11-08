@@ -1,0 +1,104 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "https://raw.githubusercontent.com/GWU-Bioinformatics/2022Fall-BIOC-6223/Ubalde,Shannen_SchemaHW",
+    "type": "object",
+    "default": {},
+    "title": "Root Schema",
+    "required": [
+        "gene dataset"
+    ],
+    "properties": {
+        "gene dataset": {
+            "type": "array",
+            "default": [],
+            "title": "The gene dataset Schema",
+            "items": {
+                "type": "object",
+                "title": "A Schema",
+                "required": [
+                    "gene name",
+                    "bp length",
+                    "accession number"
+                ],
+                "properties": {
+                    "gene name": {
+                        "type": "string",
+                        "title": "The gene name Schema",
+                        "examples": [
+                            "tumor protein p53",
+                            "epidermal growth factor receptor",
+                            "huntingtin"
+                        ]
+                    },
+                    "bp length": {
+                        "type": "integer",
+                        "title": "The bp length Schema",
+                        "examples": [
+                            2512,
+                            9905,
+                            13498
+                        ]
+                    },
+                    "accession number": {
+                        "type": "string",
+                        "title": "The accession number Schema",
+                        "examples": [
+                            "NM_000546",
+                            "NM_005228",
+                            "NM_002111"
+                        ]
+                    }
+                },
+                "examples": [{
+                    "gene name": "tumor protein p53",
+                    "bp length": 2512,
+                    "accession number": "NM_000546"
+                },
+                {
+                    "gene name": "epidermal growth factor receptor",
+                    "bp length": 9905,
+                    "accession number": "NM_005228"
+                },
+                {
+                    "gene name": "huntingtin",
+                    "bp length": 13498,
+                    "accession number": "NM_002111"
+                }]
+            },
+            "examples": [
+                [{
+                    "gene name": "tumor protein p53",
+                    "bp length": 2512,
+                    "accession number": "NM_000546"
+                },
+                {
+                    "gene name": "epidermal growth factor receptor",
+                    "bp length": 9905,
+                    "accession number": "NM_005228"
+                },
+                {
+                    "gene name": "huntingtin",
+                    "bp length": 13498,
+                    "accession number": "NM_002111"
+                }]
+            ]
+        }
+    },
+    "examples": [{
+        "gene dataset": [{
+            "gene name": "tumor protein p53",
+            "bp length": 2512,
+            "accession number": "NM_000546"
+        },
+        {
+            "gene name": "epidermal growth factor receptor",
+            "bp length": 9905,
+            "accession number": "NM_005228"
+        },
+        {
+            "gene name": "huntingtin",
+            "bp length": 13498,
+            "accession number": "NM_002111"
+        }]
+    }]
+}
