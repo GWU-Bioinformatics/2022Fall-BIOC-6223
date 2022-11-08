@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "placeholder",
+  "$id": "https://raw.githubusercontent.com/GWU-Bioinformatics/2022Fall-BIOC-6223/sara-felsen/20221108_Felsen_schema",
   "title": "Gene data",
   "description": "This document contains information about several genes.",
   "type": "object",
