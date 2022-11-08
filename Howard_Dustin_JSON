@@ -1,0 +1,20 @@
+{
+
+"Data Set" : [
+  {
+      "Gene" : "BRCA1 DNA repair associated",
+      "Base Pair Length" : 7088,
+      "Accession Number" : "NM_007294"
+      },
+  {
+      "Gene" : "Colony Stimulating Factor 1 Receptor",
+      "Base Pair Length" : 3820,
+      "Accession Number" : "NM_001288705"
+      },
+  {
+      "Gene" : "Interleukin 6",
+      "Base Pair Length" : 1127,
+      "Accession Number" : "NM_000600"
+      }
+  ]
+}
