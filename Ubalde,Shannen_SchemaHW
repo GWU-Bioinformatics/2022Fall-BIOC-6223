@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2019-09/schema",
-    "$id": "https://github.com/GWU-Bioinformatics/2022Fall-BIOC-6223/blob/Ubalde_Homework1-2/Ubalde%2CShannen_SchemaHW",
+    "$id": "https://raw.githubusercontent.com/GWU-Bioinformatics/2022Fall-BIOC-6223/Ubalde_Homework1-2/Ubalde,Shannen_SchemaHW",
     "type": "object",
     "default": {},
     "title": "Root Schema",
