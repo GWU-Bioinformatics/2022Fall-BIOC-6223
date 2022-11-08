@@ -1,18 +1,25 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
+  "$id": "https://raw.githubusercontent.com/GWU-Bioinformatics/2022Fall-BIOC-6223/yusra_homework1/YI_hw1_Schema",  
   "type": "array",
+  "title": "BIOC 6330 Homework - 3 Genes from NCBI",
+  "description": "Description for JSON data file related to 3 genes of interest from NCBI",  
   "items": [
     {
       "type": "object",
       "properties": {
         "Name": {
-          "type": "string"
+          "type": "string",
+          "description": "Associated gene name or official gene symbol from NCBI",
+          "examples": [ "Arid4b", "GFAP", "ATF4"],
         },
         "Length in bp": {
-          "type": "integer"
+          "type": "integer",
+          "description": "Length of the gene sequence in base pairs",
         },
         "Accession": {
-          "type": "string"
+          "type": "string",
+          "description": "Accession number for corresponding NCBI gene",
         }
       },
       "required": [
@@ -25,13 +32,17 @@
       "type": "object",
       "properties": {
         "Name": {
-          "type": "string"
+          "type": "string",
+          "description": "Associated gene name or official gene symbol from NCBI",
+          "examples": [ "Arid4b", "GFAP", "ATF4"],
         },
         "Length in bp": {
-          "type": "integer"
+          "type": "integer",
+          "description": "Length of the gene sequence in base pairs",
         },
         "Accession": {
-          "type": "string"
+          "type": "string",
+          "description": "Accession number for corresponding NCBI gene",
         }
       },
       "required": [
@@ -44,13 +55,17 @@
       "type": "object",
       "properties": {
         "Name": {
-          "type": "string"
+          "type": "string",
+           "description": "Associated gene name or official gene symbol from NCBI",
+          "examples": [ "Arid4b", "GFAP", "ATF4"],
         },
         "Length in bp": {
-          "type": "integer"
+          "type": "integer",
+           "description": "Length of the gene sequence in base pairs",
         },
         "Accession": {
-          "type": "string"
+          "type": "string",
+          "description": "Accession number for corresponding NCBI gene",
         }
       },
       "required": [
