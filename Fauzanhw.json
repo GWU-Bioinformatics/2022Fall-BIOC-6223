@@ -1,0 +1,15 @@
+{
+	"Gene data": [{
+		"Gene name": "Homo sapien transferrin receptor",
+		"Length": 32829,
+		"Accession": "AF187320.1"
+	}, {
+		"Gene name": "Human chromatic cytochrome c",
+		"Length": 3088,
+		"Accession": "M22877.1"
+	}, {
+		"Gene name": "Homo sapiens sonic hedgehog protein",
+		"Length": 1576,
+		"Accession": "L38518.1"
+	}]
+}
