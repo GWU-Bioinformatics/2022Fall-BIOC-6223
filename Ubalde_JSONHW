@@ -1,0 +1,19 @@
+{
+  "gene dataset" : [
+  {
+    "gene name" : "tumor protein p53",
+    "bp length" : 2512,
+    "accession number" : "NM_000546"
+  },
+  {
+    "gene name" : "epidermal growth factor receptor",
+    "bp length" : 9905,
+    "accession number" : "NM_005228"
+  },
+  {
+    "gene name" : "huntingtin",
+    "bp length" : 13498,
+    "accession number" : "NM_002111"
+  }
+  ]
+ }
