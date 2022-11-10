@@ -20,7 +20,7 @@
                 "properties": {
                     "name": {
                         "type": "string",
-                        "description":"The name of gene"
+                        "description":"The name of gene",
                         "examples": [
                             "Pellia endiviifolia (species B) Ts gene",
                             "Gulo gulo luscus ACE2 gene",
@@ -45,3 +45,8 @@
                             "KJ902619"
                         ]
                     }
+                }  
+            }
+        }
+    }
+}
