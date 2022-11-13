@@ -1,4 +1,4 @@
-{
+{ 
 	"$schema": "https://json-schema.org/draft-07/schema#",
 	"$id": "https://raw.githubusercontent.com/GWU-Bioinformatics/2022Fall-BIOC-6223/Karim_Ismat_HW_11/8/22/Karim_Ismat_HW_Schema",
 	"type": "object",
