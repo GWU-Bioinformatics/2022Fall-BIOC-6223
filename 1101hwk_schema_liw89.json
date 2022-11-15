@@ -1,0 +1,50 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema", 
+    "$id": "https://raw.githubusercontent.com/GWU-Bioinformatics/2022Fall-BIOC-6223/liw89/1101hwk_schema_liw89.json",
+    "type": "object",
+    "required": [
+      "genes"
+    ],
+    "Properties": {
+    	"genes": {
+    		"type": "object",
+    		"description": "A gene is the basic physical and functional unit of heredity.",
+            "required": [
+            	"gene_name",
+            	"length_in_bp",
+            	"accession_number"
+            ],
+            "items": {
+            	"properties": {
+                	"gene_name": {
+                    	"type": "string",
+                    	"description": "The name of the gene.",
+                        "examples": [
+                        	"Homo sapiens dg8 ACE2 gene",
+                          	"Homo sapiens p53 gene",
+                          	"Borreliella garinii subsp. bavariensis strain Hs-104 Hbb (hbb) gene"
+                        ]
+                    },
+                	"length_in_bp": {
+    					"type": "integer",
+    					"description": "The length of the gene in basepair.",
+                        "examples": [
+                        	397,
+                          	123,
+                          	010
+                        ]
+    				},
+                    "accession_number": {
+    					"type": "string",
+    					"description": "The accession number of the gene.",
+                        "examples": [
+                    		"X54156",
+                          	"LC713511",
+                          	"MZ005317"
+                        ]
+                    }
+                }
+            }
+        }
+    } 
+}

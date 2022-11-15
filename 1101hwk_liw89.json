@@ -1,0 +1,18 @@
+{
+	"genes": [{
+			"gene_name": "Borreliella garinii subsp. bavariensis strain Hs-104 Hbb (hbb) gene",
+			"length_in_bp": 327,
+			"accession_number": "MZ005317"
+		},
+		{
+			"gene_name": "Homo sapiens dg8 ACE2 gene for angiotensin converting enzyme 2",
+			"length_in_bp": 356,
+			"accession_number": "LC713511"
+		},
+		{
+			"gene_name": "Homo sapiens p53 gene for transformation related protein p53",
+			"length_in_bp": 20303,
+			"accession_number": "X54156"
+		}
+	]
+}
