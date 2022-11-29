@@ -1,0 +1,15 @@
+{
+  "Gene Info" : [{
+    "Name" : "IL2RG",
+    "Length in BP" : 4228,
+    "Accession": "NG_009088.1"
+  },{
+    "Name": "ESR1",
+    "Length in BP": 295596,
+    "Accession": "NG_008493.2"
+  },{
+    "Name": "JAK3",
+    "Length in BP": 23251,
+    "Accession": "NG_007273.1"
+  }]
+}
