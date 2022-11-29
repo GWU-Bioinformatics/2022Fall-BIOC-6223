@@ -1,0 +1,19 @@
+{
+  "entries": [
+    {
+      "gene_name": "RBM39",
+      "length": 47914,
+      "accession": {"acc_number": "NG_029955", "version": 2}
+    },
+    {
+      "gene_name": "Adamts13",
+      "length": 36276,
+      "accession": {"acc_number": "NC_000068 region: 2863363..26899638", "version": 1}
+    },
+    {
+      "gene_name": "foxp2",
+      "length": 216186,
+      "accession": {"acc_number": "NC_007115 region: complement (6423352..6639537)", "version": 7}
+    }
+  ]
+}
