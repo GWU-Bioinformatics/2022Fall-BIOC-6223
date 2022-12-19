@@ -1,0 +1,33 @@
+{
+	"$schema": "https://json-schema.org/draft-07/schema#",
+	"$id": "https://raw.githubusercontent.com/GWU-Bioinformatics/2022Fall-BIOC-6223/Karim_Ismat_HW_11/8/22/Karim_Ismat_HW_Schema",
+	"type": "object",
+	"required": ["nucleotides"],
+	"properties": {
+		"nucleotides": {
+			"type": "array",
+			"description": "Contains a list of nucleotides relevant to dysferlinopathy",
+			"items": {
+				"type": "object",
+				"required": ["name",
+					"bp_length",
+					"accession_number"
+				],
+				"properties": {
+					"name": {
+						"type": "string",
+						"description": "Name of nucleotide sequence"
+					},
+					"bp_length": {
+						"type": "number",
+						"description": "Length of nucleotide sequence in base pairs"
+					},
+					"accession_number": {
+						"type": "string",
+						"description": "Unique alpha-numeric identifier"
+					}
+				}
+			}
+		}
+	}
+}

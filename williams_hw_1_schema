@@ -1,0 +1,33 @@
+{
+	"$schema": "https://json-schema.org/draft-07/schema#",
+	"$id": "https://raw.githubusercontent.com/GWU-Bioinformatics/2022Fall-BIOC-6223/ewilliams17/williams_hw_1_schema",
+	"type": "object",
+	"required": ["cancer_genes"],
+	"properties": {
+		"cancer_genes": {
+			"type": "array",
+			"description": "Contains a list of genes that are dysfunctional in cancer",
+			"items": {
+				"type": "object",
+				"required": ["name",
+					"length",
+					"accession"
+				],
+				"properties": {
+					"name": {
+						"type": "string",
+						"description": "Name of gene"
+					},
+					"length": {
+						"type": "number",
+						"description": "Length of gene in base pairs"
+					},
+					"accession": {
+						"type": "string",
+						"description": "accession number"
+					}
+				}
+			}
+		}
+	}
+}

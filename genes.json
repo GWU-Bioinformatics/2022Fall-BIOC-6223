@@ -1,0 +1,15 @@
+{
+    "genes":[{
+        "name":"Pellia endiviifolia (species B) Ts gene",
+        "bp_length":3875,
+        "accession_number":"HQ634386"
+    },{
+        "name":"Gulo gulo luscus ACE2 gene",
+        "bp_length":36590,
+        "accession_number":"OM350479"
+    },{
+        "name":"UIMC1",
+        "bp_length":1791,
+        "accession_number":"KJ902619"
+    }]
+}
