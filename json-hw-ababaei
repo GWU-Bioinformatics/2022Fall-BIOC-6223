@@ -1,0 +1,17 @@
+
+
+{
+"genes": [{
+"accession": "KJ891170",
+"name": "Synthetic construct Homo sapiens clone ccsbBroadEn_00564 FGR gene",
+"length": 1719
+}, {
+"accession": "NC_008558",
+"name": "Blackberry virus Y",
+"length": 10851
+}, {
+"accession": "CR542175",
+"name": "Homo sapiens full open reading frame cDNA clone RZPDo834B1024D for gene CYCS ",
+"length": 318
+}]
+}
