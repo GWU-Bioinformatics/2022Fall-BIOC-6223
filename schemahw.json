@@ -1,0 +1,104 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "default": {},
+    "title": "Root Schema",
+    "required": [
+        "Gene data"
+    ],
+    "properties": {
+        "Gene data": {
+            "type": "array",
+            "default": [],
+            "title": "The Gene data Schema",
+            "items": {
+                "type": "object",
+                "title": "A Schema",
+                "required": [
+                    "Gene name",
+                    "Length",
+                    "Accession"
+                ],
+                "properties": {
+                    "Gene name": {
+                        "type": "string",
+                        "title": "The Gene name Schema",
+                        "examples": [
+                            "Homo sapien transferrin receptor",
+                            "Human chromatic cytochrome c",
+                            "Homo sapiens sonic hedgehog protein"
+                        ]
+                    },
+                    "Length": {
+                        "type": "integer",
+                        "title": "The Length Schema",
+                        "examples": [
+                            32829,
+                            3088,
+                            1576
+                        ]
+                    },
+                    "Accession": {
+                        "type": "string",
+                        "title": "The Accession Schema",
+                        "examples": [
+                            "AF187320",
+                            "M22877.1",
+                            "L38518.1"
+                        ]
+                    }
+                },
+                "examples": [{
+                    "Gene name": "Homo sapien transferrin receptor",
+                    "Length": 32829,
+                    "Accession": "AF187320"
+                },
+                {
+                    "Gene name": "Human chromatic cytochrome c",
+                    "Length": 3088,
+                    "Accession": "M22877.1"
+                },
+                {
+                    "Gene name": "Homo sapiens sonic hedgehog protein",
+                    "Length": 1576,
+                    "Accession": "L38518.1"
+                }]
+            },
+            "examples": [
+                [{
+                    "Gene name": "Homo sapien transferrin receptor",
+                    "Length": 32829,
+                    "Accession": "AF187320"
+                },
+                {
+                    "Gene name": "Human chromatic cytochrome c",
+                    "Length": 3088,
+                    "Accession": "M22877.1"
+                },
+                {
+                    "Gene name": "Homo sapiens sonic hedgehog protein",
+                    "Length": 1576,
+                    "Accession": "L38518.1"
+                }]
+            ]
+        }
+    },
+    "examples": [{
+        "Gene data": [{
+            "Gene name": "Homo sapien transferrin receptor",
+            "Length": 32829,
+            "Accession": "AF187320"
+        },
+        {
+            "Gene name": "Human chromatic cytochrome c",
+            "Length": 3088,
+            "Accession": "M22877.1"
+        },
+        {
+            "Gene name": "Homo sapiens sonic hedgehog protein",
+            "Length": 1576,
+            "Accession": "L38518.1"
+        }]
+    }]
+}
