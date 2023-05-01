@@ -1,0 +1,17 @@
+{
+    "ACTB": {
+        "name": "ACTB",
+        "length": 1363,
+        "accession_number": "NM_001101.5"
+    },
+    "AKT1": {
+        "name": "AKT1",
+        "length": 1480,
+        "accession_number": "NM_001014431.2"
+    },
+    "GAPDH": {
+        "name": "GAPDH",
+        "length": 1075,
+        "accession_number": "NM_002046.7"
+    }
+}
