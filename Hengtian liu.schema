@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://github.com/HengtianLiu/2022Fall-BIOC-6223/new/Hengtian-Liu",
+    "$id": "https://raw.githubusercontent.com/GWU-Bioinformatics/2022Fall-BIOC-6223/Hengtian-Liu/Hengtian-liu.json",
     "type": "object",
     "required": ["name", "length", "accession_number"],
     "additionalProperties": false,
